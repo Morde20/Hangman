@@ -3,6 +3,10 @@
     font-size: 22px;
   }
 
+  body {
+    text-align: center;
+    margin: auto;
+  }
   body #hiddenLetters {
     max-width: 220px;
   }
