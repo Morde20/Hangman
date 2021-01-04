@@ -1,52 +1,66 @@
 @media only screen and (max-width: 600px) {
     body {
-      max-width: 500px;
 
       #hiddenLetters{
-          max-width: 480px;
+          max-width: 400px;
+
+          .hiddenLetter{
+            max-height: 30px;
+            max-width: 30px;
+            margin: auto;
+        }
       }
 
       .showLetter{
           font-size: 38px;
       }
 
+      #lettersArray{
+
+        .clickableLetter{
+            max-height: 30px;
+            max-width: 40px;
+            font-size: 18px;
+        }
+
+    }
+
       .hangmanPic{
-        max-width: 480px;
+        max-width: 420px;
       }
 
       #coverPic2{
-        max-width: 480px;
+        max-width: 420px;
         height: 320px;
 
         #coverPic1{
             height: 400px;
-            max-width: 480px;
-            top: 0;
+            max-width: 420px;
 
             
             .div4{
                 height: 120px;
-                max-width: 480px;
+                max-width: 420px;
             }
             
             .div3{
                 height: 50px;
-                max-width: 480px;
+                max-width: 420px;
             }
             
             .div2{
                 height: 50px;
-                max-width: 480px;
+                max-width: 420px;
             }
             
             .div1{
               height: 50px;
-              max-width: 480px;
+              max-width: 420px;
             }
             
             .div0{
                 height: 70px;
-                max-width: 480px;
+                max-width: 420px;
             }
         }      
     }
