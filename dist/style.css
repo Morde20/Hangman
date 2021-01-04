@@ -1,3 +1,46 @@
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 500px;
+  }
+  body #hiddenLetters {
+    max-width: 480px;
+  }
+  body .showLetter {
+    font-size: 38px;
+  }
+  body .hangmanPic {
+    max-width: 480px;
+  }
+  body #coverPic2 {
+    max-width: 480px;
+    height: 320px;
+  }
+  body #coverPic2 #coverPic1 {
+    height: 400px;
+    max-width: 480px;
+    top: 0;
+  }
+  body #coverPic2 #coverPic1 .div4 {
+    height: 120px;
+    max-width: 480px;
+  }
+  body #coverPic2 #coverPic1 .div3 {
+    height: 50px;
+    max-width: 480px;
+  }
+  body #coverPic2 #coverPic1 .div2 {
+    height: 50px;
+    max-width: 480px;
+  }
+  body #coverPic2 #coverPic1 .div1 {
+    height: 50px;
+    max-width: 480px;
+  }
+  body #coverPic2 #coverPic1 .div0 {
+    height: 70px;
+    max-width: 480px;
+  }
+}
 body {
   text-align: center;
   background-color: green;

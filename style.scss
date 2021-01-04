@@ -1,3 +1,60 @@
+@media only screen and (max-width: 600px) {
+    body {
+      max-width: 500px;
+
+      #hiddenLetters{
+          max-width: 480px;
+      }
+
+      .showLetter{
+          font-size: 38px;
+      }
+
+      .hangmanPic{
+        max-width: 480px;
+      }
+
+      #coverPic2{
+        max-width: 480px;
+        height: 320px;
+
+        #coverPic1{
+            height: 400px;
+            max-width: 480px;
+            top: 0;
+
+            
+            .div4{
+                height: 120px;
+                max-width: 480px;
+            }
+            
+            .div3{
+                height: 50px;
+                max-width: 480px;
+            }
+            
+            .div2{
+                height: 50px;
+                max-width: 480px;
+            }
+            
+            .div1{
+              height: 50px;
+              max-width: 480px;
+            }
+            
+            .div0{
+                height: 70px;
+                max-width: 480px;
+            }
+        }      
+    }
+      
+    }
+}
+
+
 body{
     text-align: center;
     background-color: green;
