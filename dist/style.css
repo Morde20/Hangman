@@ -1,10 +1,14 @@
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+
   body #hiddenLetters {
-    max-width: 400px;
+    max-width: 220px;
   }
   body #hiddenLetters .hiddenLetter {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 15px;
+    max-width: 15px;
     margin: auto;
   }
   body .showLetter {
@@ -16,35 +20,35 @@
     font-size: 18px;
   }
   body .hangmanPic {
-    max-width: 420px;
+    max-width: 220px;
   }
   body #coverPic2 {
-    max-width: 420px;
+    max-width: 220px;
     height: 320px;
   }
   body #coverPic2 #coverPic1 {
     height: 400px;
-    max-width: 420px;
+    max-width: 220px;
   }
   body #coverPic2 #coverPic1 .div4 {
     height: 120px;
-    max-width: 420px;
+    max-width: 220px;
   }
   body #coverPic2 #coverPic1 .div3 {
     height: 50px;
-    max-width: 420px;
+    max-width: 220px;
   }
   body #coverPic2 #coverPic1 .div2 {
     height: 50px;
-    max-width: 420px;
+    max-width: 220px;
   }
   body #coverPic2 #coverPic1 .div1 {
     height: 50px;
-    max-width: 420px;
+    max-width: 220px;
   }
   body #coverPic2 #coverPic1 .div0 {
     height: 70px;
-    max-width: 420px;
+    max-width: 220px;
   }
 }
 body {

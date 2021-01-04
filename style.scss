@@ -1,12 +1,17 @@
 @media only screen and (max-width: 600px) {
+
+    h1{
+    font-size: 22px;
+    }
+
     body {
 
       #hiddenLetters{
-          max-width: 400px;
+          max-width: 220px;
 
           .hiddenLetter{
-            max-height: 30px;
-            max-width: 30px;
+            max-height: 15px;
+            max-width: 15px;
             margin: auto;
         }
       }
@@ -26,41 +31,41 @@
     }
 
       .hangmanPic{
-        max-width: 420px;
+        max-width: 220px;
       }
 
       #coverPic2{
-        max-width: 420px;
+        max-width: 220px;
         height: 320px;
 
         #coverPic1{
             height: 400px;
-            max-width: 420px;
+            max-width: 220px;
 
             
             .div4{
                 height: 120px;
-                max-width: 420px;
+                max-width: 220px;
             }
             
             .div3{
                 height: 50px;
-                max-width: 420px;
+                max-width: 220px;
             }
             
             .div2{
                 height: 50px;
-                max-width: 420px;
+                max-width: 220px;
             }
             
             .div1{
               height: 50px;
-              max-width: 420px;
+              max-width: 220px;
             }
             
             .div0{
                 height: 70px;
-                max-width: 420px;
+                max-width: 220px;
             }
         }      
     }
